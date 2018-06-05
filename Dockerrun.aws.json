@@ -2,9 +2,9 @@
   "AWSEBDockerrunVersion": 2,
   "containerDefinitions": [
     {
-      "name": "vue-aws-ci",
+      "name": "<IMAGE_REPO_NAME>",
       "image":
-        "682267561617.dkr.ecr.ap-southeast-2.amazonaws.com/vue-aws-ci:latest",
+        "<AWS_ACCOUNT_ID>.dkr.ecr.<AWS_DEFAULT_REGION>.amazonaws.com/<IMAGE_REPO_NAME>:<IMAGE_TAG>",
       "portMappings": [
         {
           "hostPort": 80,
