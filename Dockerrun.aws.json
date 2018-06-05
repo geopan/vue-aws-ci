@@ -4,7 +4,7 @@
     {
       "name": "vue-aws-ci",
       "image":
-        "$AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG",
+        "682267561617.dkr.ecr.ap-southeast-2.amazonaws.com/vue-aws-ci:latest",
       "portMappings": [
         {
           "hostPort": 80,
